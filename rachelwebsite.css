@@ -43,7 +43,6 @@ table {
 	border-spacing: 0;
 }
 
-
 body {
 background-color: #ffffff;
 color: black;
@@ -51,15 +50,16 @@ font-family: helvetica, arial, sans-serif;
 }
 
 ul {
-/*list-style-type:none;*/
+list-style-type:none;
 margin:0;
 padding:0;
 overflow:hidden;
 }
 
 li {
-display: inline;
-padding:10px;
+list-style-type: disc;
+padding-left: 10px;
+list-style-position: inside
 }
 
 h1 {
@@ -85,6 +85,11 @@ h3 {
 h4 {
 	font-style:italic;
 	font-size:16px;
+}
+
+h5 {
+	font-style:italic;
+	font-size:18px;
 }
 
 nav ul li a {
@@ -143,19 +148,15 @@ footer {
 }
 
 img {
-	display:block;
+	/*display:block;
 	height:90px;
 	width:280px;
-	float:right;
+	float:right;*/
 }
 
 section {
 	float:left;
 	width:800px;
-}
-
-div {
-	height: 80%;
 }
 
 article {
@@ -272,10 +273,46 @@ a:active {
 	margin-left:60px;
 }
 
-p:first-line {
+p + p{
 	text-indent: 30px;
 }
 
-a[href^="https://"] {
-	background: url("lock.png") 0 50% no-repeat;
+div a[href^="https://"] {
+	background: url("/Users/Rachel Carpenter/Desktop/Github Repositories/starterleague/Images/lock.png") no-repeat right;
 }
+
+a[href*="http://"] {
+	background: url("/Users/Rachel Carpenter/Desktop/Github Repositories/starterleague/Images/newwindow.png") 0 50% no-repeat;
+}
+
+.nav ul li {
+	display:inline-block;
+}
+
+.linkExperiment {
+	height: 100px;
+	width: 350px;
+	border-radius:5px;
+	line-height:50px;
+	margin:50px 10px 10px 10px;
+	text-align:center;
+	vertical-align:middle;
+	background:#7fffd4;
+	color:black;
+	border:solid 2px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
