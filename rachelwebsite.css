@@ -8,8 +8,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -20,7 +20,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -185,7 +185,7 @@ vertical-align:middle;
 .success {
 background:#00ff00;
 color:#f8f8ff;
-border:solid 2px #32cd32     
+border:solid 2px #32cd32
 }
 
 .warning {
@@ -239,7 +239,7 @@ border:solid 2px #ffa500;
 .icon {
 	height:40px; /* 40px/1200px */
 	width:40px;  /* 40px/1200px */
-	padding:5px 20px;  /* 5px/1200px and 20px/1200px */ 
+	padding:5px 20px;  /* 5px/1200px and 20px/1200px */
 }
 
 .resumeList {
@@ -324,18 +324,21 @@ a[href*="http://"] {
 	section, aside {
 		float:none;
 		width:auto;
+	}
 }
 
 @media (max-width: 960px) {
 	section, aside {
 		float:none;
 		width:auto;
+	}
 }
 
 @media (max-width: 1200px) {
 	section, aside {
 		float:none;
-		width:auto;	
+		width:auto;
+	}
 }
 
 
